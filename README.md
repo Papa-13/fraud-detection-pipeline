@@ -134,7 +134,7 @@ fraud-detection-pipeline/
 ## 💡 Business Implications
 
 1. **PR-AUC is the right metric** — ROC-AUC of 0.98 sounds impressive but is inflated by the easy majority class. PR-AUC of 0.88 is the honest number
-2. **SMOTE must stay inside the training split** — applying it before splitting leaks synthetic fraud into your test set, inflating PR-AUC by 15–20%
+2. **SMOTE must stay inside the training split** — applying it before splitting leaks synthetic fraud into your test set, inflating PR-AUC
 3. **Threshold 0.815 is the F1-optimal operating point** — but a fraud team with more analyst capacity can lower it to catch more fraud
 4. **Night transactions are higher risk** — fraud concentrates in low-monitoring hours
 5. **SHAP closes the loop** — every flagged transaction can be explained to an analyst in seconds, supporting GDPR Article 22 compliance
@@ -154,7 +154,7 @@ fraud-detection-pipeline/
 ## 👨‍💻 Author
 
 **Papa Kwadwo Bona Owusu**  
-Co-Founder & CTO, DigiTech Edge Solutions  
+Founder & CEO, DigiTech Edge Solutions  
 MSc Applied AI & Data Science | MSc Business Analytics  
 [GitHub](https://github.com/Papa-13) · [LinkedIn](https://linkedin.com/in/papa-kwadwo-bona-owusu)
 
